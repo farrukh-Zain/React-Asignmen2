@@ -1,22 +1,16 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import "./components/All.css"
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import RegistrationForm from "./components/Registrationform";
+
 
 
 
 function App(){
     
     return(
-        <>
+        <div class="bg-primary text-dark mx-3 mt-4">
         
-        <Navbar title={"Navbar"} />
-        <Main />
-        <Main />
-        <Main />
-        <Footer title={"Footer"} />
-        </> 
+        <RegistrationForm/>
+       </div>
     )
 }
 export default App;
